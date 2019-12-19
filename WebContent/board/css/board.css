@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+table {
+	width: auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+ 
+td,th {
+	font-size: 10pt;
+	border: 1px solid #98bf21;
+	height: 30px;
+	padding: 5px;
+}
+
+th {
+	background-color: #A7C942;
+	color: #ffffff;
+	font-family: Georgia;
+}
+
+tr td {
+	color: #000000;
+	background-color: #EAF2D3;
+}
+
+input {
+	height: 25px;
+	width:200px;
+}
+
+	.board_table tr th:first-child,
+    .board_table tr th:nth-child(4),
+    .board_table tr td:nth-child(6),
+    .board_table tbody tr td:first-child,
+	.board_table tbody tr td:nth-child(4)
+     {
+        display: none; /* 제목란만 빼고 숨김처리 */
+}
+
+
+input[type="submit"],[type="reset"],[type="button"] {
+	height: 25px;
+	width:80px;
+}
