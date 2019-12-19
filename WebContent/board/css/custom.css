@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+* {
+	font-family : 'Nanum Gothic';
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.social {
+    order: 11;
+    padding: 24px 12.5%;
+    /* 40px / 320 */
+    padding: 1.500rem 12.5%;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+}
+
+.social_list span {
+    margin: 1rem 0.412rem;
+}
+
+.social_list span a img{
+    width: 30px;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	color: #e9e9e9;
+	background: #27292c;
+	padding: 10px 20px;
+	margin-top: 5%;
+}
+
+/* Media Query PC 사이즈 992px */
+@media all and (min-width:992px)and (max-width:1199px) {
+ .social_list {
+            display: block;
+            position: relative;
+            left: 600px;
+            top: 190px;
+            width: 30%;
+            order: 8;
+            /* 164 / 1024 */
+        }
+ footer{
+	width: 100%;
+	color: #e9e9e9;
+	text-align: left;
+	background: #27292c;
+	padding: 10px 20px;
+	margin-top: 5%;
+}       
+        
+}
+
+/* Media Query PC 사이즈 1200px */
+@media all and (min-width:1200px) {
+ .social_list {
+            display: block;
+            position: relative;
+            left: 830px;
+            top: 190px;
+            width: 30%;
+            order: 8;
+            /* 164 / 1024 */
+        }
+ footer{
+	width: 100%;
+	color: #e9e9e9;
+	text-align: left;
+	background: #27292c;
+	padding: 10px 20px;
+	margin-top: 5%;
+}       
+        
+}
+
+
